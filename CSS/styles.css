@@ -39,7 +39,7 @@
    header{
        width: 100%;
        height: 600px;
-       background-image: url(./img/reunion.jpg);
+       background-image: url(/img/reunion.jpg);
        background-size: cover;
        background-attachment: fixed;
    
