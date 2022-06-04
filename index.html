@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <script src="/JS/validar.js"></script>
+    <script src="/JS/main.js"></script>
+    <script src="/JS/slide.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Montserrat+Alternates:ital,wght@1,500&family=Montserrat:wght@500&family=Open+Sans:ital@1&family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15be2ede11.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <title>Consultora HR</title>
+</head>
+<body>
+
+    <header>
+        
+    <nav>
+        <div>
+            <p>Consultora HR</p>
+            <a href="#sobre-nosotros">¿Que Ofrecemos?</a>
+            <a href="#confian-en-nosotros">Testimonios</a>
+            <a href="#contact-us">Contactanos</a>
+            <a href="#charlamos">Charlamos</a>
+    </nav>
+        <section class="textos-header">
+            <h1 class="text-animado" id="texto"> Mas que consultoras somos parte del negocio</h1>
+        </section>
+    </div>
+    </header>
+
+    <section class="contenedor sobre-nosotros">
+        <h2 class="title"> ¿Que Ofrecemos?</h2>
+        <div class="contenedor-sobre-nosotros">
+                <img src="/img/dibujo.jpg" alt="" class="img-about-us">
+            <div class="contenido-textos"> 
+                <h3>Recruiting</h3> 
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat perferendis iusto eius. Quis laboriosam quas impedit aspernatur, optio soluta quibusdam neque, animi ad doloremque illum tempore consequatur? Nostrum, nobis harum.</p>
+               <h3>Consulting</h3> 
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat perferendis iusto eius. Quis laboriosam quas impedit aspernatur, optio soluta quibusdam neque, animi ad doloremque illum tempore consequatur? Nostrum, nobis harum.</p>
+            </div>
+        </div>
+    </section>
+
+ <section class="confian-en-nosotros">
+      <div class="clientes"></div>
+      <h2 class="title">Testimonios</h2>
+      <div class="cards">
+
+          <div class="card">
+              <img src="/img/hombr.jpg" alt="">
+              <div class="contenido-texto-card">
+                  <h4>Martina</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus reprehenderit earum blanditiis, vero nihil aperiam suscipit voluptate ullam inventore quia quisquam voluptas dolorum eaque deleniti aliquam dolorem libero esse?</p>
+              </div>
+        </div>
+
+              <div class="card">
+                <img src="/img/mujer.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Martina</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus reprehenderit earum blanditiis, vero nihil aperiam suscipit voluptate ullam inventore quia quisquam voluptas dolorum eaque deleniti aliquam dolorem libero esse?</p>
+                </div>
+              </div>
+
+                <div class="card">
+                    <img src="/img/hombr.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Martina</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus reprehenderit earum blanditiis, vero nihil aperiam suscipit voluptate ullam inventore quia quisquam voluptas dolorum eaque deleniti aliquam dolorem libero esse?</p>
+                    </div>
+                </div>
+      </div>
+
+
+    </section> 
+ <section class="contact-us">
+     <h1 class="title">Contactanos</h1>
+     <form action="registrar.php" class="form-register" onsubmit="return validar ();">
+             <h2 class="form-titulo">Ingrese su consulta</h2>
+             <div class="contenedor-inputs"> 
+             <input type="text" id="nombre" name='nombre' placeholder="Nombre" class="input-50" >
+             <input type="text" id="apellido" name='apellido' placeholder="Apellido" class="input-50">
+             <input type="email" id="correo" name="correo" placeholder="Correo Electronico" class="input-100" >
+
+             <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje" class="input-100"></textarea>
+
+             <input type="submit" value="Enviar" class="btn-enviar">
+            </div>
+         </form>
+</section>
+
+
+    <div class="conteiner">
+            <h2 class="title"> Confian en nosotros</h2>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="/img/accenture.png"  alt=""></div>
+                <div class="slide"><img src="/img/google.png" alt=""></div>
+                <div class="slide"><img src="/img/accenture.png" alt=""></div>
+                <div class="slide"><img src="/img/accenture.png" alt=""></div>
+                <div class="slide"><img src="/img/accenture.png" alt=""></div>
+
+            </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="col-12 col-sd-12 col-md-12 col-lg-6 col-xl-6">
+                <h2 class="title-footer">Charlemos</h2> 
+                
+                <div class="div-contact-data">
+
+                    <div class="div-icon-data">
+                        <i class="fas fa-phone-alt"></i>
+                        <p class="p-contact-data">011 4567 9999 </p>
+                    </div>
+
+                    <div class="div-icon-data">
+                        <a href="https://www.facebook.com"></a><i class="fab fa-facebook-square"></i>
+                        <p class="p-contact-data">Consulting HR</p>
+                    </div>
+                     
+                </div>
+                <div class="div-contact-data">
+                    <div class="div-icon-data">
+                        <a href="https://www.instagram.com"></a><i class="fab fa-instagram"></i>
+                         <p class="p-contact-data">ConsultingHR@hotmail.com</p>
+                    </div>
+
+                    <div class="div-icon-data">
+                         <a href="https://ar.linkedin.com"></a><i class="fab fa-linkedin"></i>
+                        <p class="p-contact-data">ConsultingHR@hotmail.com</p>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sd-12 col-md-12 col-lg-6 col-xl-6" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.0043294389601!2d-58.382948270803965!3d-34.60372359491599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf3fe83a57%3A0x821eac1bebc2639d!2sAv.%20Corrientes%2C%20C1043AAK%20CABA!5e0!3m2!1ses!2sar!4v1630936576064!5m2!1ses!2sar" allowfullscreen="" loading="lazy" class="footer-map"></iframe>
+            </div>
+
+    </footer>
+<script>
+
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 3,
+        slidesToScroll:1,
+        autoplay:true,
+        autoplaySpeed:1500,
+        arrows: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint:768,
+            setting: {
+                slidesToShow:4
+            }
+        },{
+            breakpoint: 520,
+            setting:{
+                slidesToShow: 3
+            }
+        }]
+
+    });
+});
+
+</script>
+</body>
+</html>
